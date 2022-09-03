@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/game1.css">
+    <style>
+      body{
+        background-image: url('image/gaming.jpg');
+        background-size:100% 100%;
+        background-color:rgba(0,0,0,0.5);
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+    <title>Game</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light primary-nav">
+  <a class="navbar-brand" href="#"><img src="image/joy.jpg" width="20%"></a>
+  <div class="toggler-icons">
+    <span class="navbar-toggler-icon toggler"></span>
+    <span class="cross-icon " style="display: none;">&#10060;</span>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-between w-100">
+      
+      <li class="nav-item">
+        <a class="nav-link "  href="Game1.html"> <i class="fa fa-home" style="font-size: 20px;"> Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="Trailer.html" > <i class="fa fa-play-circle" style="font-size: 20px;"> Trailer</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link  " href="#" > <i class="fa fa-gamepad" style="font-size: 20px;"> Games</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link " href="#" ><i class="fa fa-calendar-alt" style="font-size: 20px;"> Calendar</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link active " href="contact.html" ><i class="fa fa-envelope" style="font-size: 20px;"> Contact</i></a>
+      </li>
+
+       <li class= "nav-item" id="login">
+        <a class="nav-link " href="#"> <i class="fa fa-user" style="font-size: 20px;"> Login</i></a>
+      </li>
+    </ul>
+  </div> 
+</nav>
+
+
+
+
+
+
+
+
+
+  <div class="container"> 
+    <h2 class="text-light text-center font-weight-lighter py-4 display-4">Contact</h2>
+    <hr>
+
+    <p  class="love text-center text-light display-4">We'd  &#10084;  to  help!</p>
+    <p class="text-center text-light" style="font-size: 25px;">We will love to help you, open-minded people feel free to say hello!</p>
+
+    <div class="row mb-2">
+      <div class="col-md-6 py-4">
+       <form id="form" class="form" method="post" name="contacts">
+         <div class="form-groupzz pb-4  fom1 ">
+           <label for="inputName" class="col-sm-2 col-for-label lname" >Name:</label><br>
+           <div class="col-sm-10 formInputs">
+            <input type="text" id="username" placeholder="Enter your Fullname" class="form-control" name="username"> <i class="fa fa-check-circle c1"></i>
+           <i class="fa fa-exclamation-circle c1"></i>
+           <small>Error msg</small>
+           </div>
+         </div>
+
+         <div class="form-groupzz pb-4 ">
+           <label for="inputEmail" class="col-sm-2 col-for-label lemail">Email:</label><br>
+           <div class="col-sm-10 formInputs">
+             <input type="email" id="email" placeholder="Enter your Email" class="form-control" name="email">
+             <i class="fa fa-check-circle c1"></i>
+             <i class="fa fa-exclamation-circle c1"></i>
+             <small>Error msg</small>
+           </div>
+         </div>
+
+         <div class="form-groupzz pb-4 ">
+           <label for="inputPassword" class="col-sm-2 col-for-label lpassword">Password:</label><br>
+           <div class="col-sm-10 formInputs">
+             <input type="password" id="password" placeholder="Enter your password" class="form-control" name="password">
+             <i class="fa fa-check-circle c1"></i>
+             <i class="fa fa-exclamation-circle c1"></i>
+             <small>Error msg</small>
+           </div>
+         </div>
+
+          <div class="form-groupzz pb-4 ">
+           <label for="inputPassword"  class="col-sm-2 col-for-label lcpassword ">Confirm Password:</label><br>
+           <div class="col-sm-10 formInputs">
+             <input type="password" id="password2" placeholder="Retype your Password" class="form-control py-4" name="cpassword">
+             <i class="fa fa-check-circle c1  "></i>
+             <i class="fa fa-exclamation-circle c1  "></i>
+             <small>Error msg</small>
+           </div>
+         </div>
+
+         <div class="form-groupzz pb-4">
+          <label for="exampleFormControlTextarea1" class="col-sm-3 col-form-label lmessage">Message:</label><br>
+           <div class="col-sm-8 formInputs">
+           <textarea class="form-control" id="message" rows="4" name="message"></textarea>
+            <i class="fa fa-check-circle c1  "></i>
+             <i class="fa fa-exclamation-circle c1  "></i>
+             <small>Error msg</small>
+           </div>
+            </div>
+
+            <div class="form-groupzz ">
+              <button class="btn btn-primary btn-lg btn-block align-item-center pl-2 " type="submit">Submit</button>
+            </div>
+       </form>
+      </div>
+      <div class="card ml-auto cardbg py-4" style="width: 30rem; height: 80vh;">
+      <div class="card-body">
+          <h2 class="card-title text-light text-center font-weight-lighter">Get in Touch</h2>
+          <i class="fa fa-map-marker fa-icon py-4"><span class="ml-4">Address</span></i>
+          <p class="text-light font-weight-bold p-content"><span class="ml-5" >Changu naryan-muncipality-2, Nepal</span></p>
+          <p class="text-light font-weight-bold mb-5 p-content"><span class="ml-5">K.M.C old building Bhaktapur,Nepal</span></p>
+
+          <i class="fa fa-phone-alt fa-icon py-4"><span class="ml-4">Lets Talk</span></i>
+          <p class="text-light font-weight-bold mb-5 p-content"><span class="ml-5">+977 9823805358</span></p>
+
+
+          <i class="fa fa-envelope fa-icon py-4"><span class="ml-4">General Support</span></i>
+          <a href="#"><p class="text-light font-weight-bold p-content"><span class="ml-5">mail@gmail.com</span></p></a>
+          
+         
+          
+  </div>
+</div>
+     
+    </div>
+
+    
+    
+  </div>
+</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqGame.js"></script> 
+<script type="text/javascript" src="js/game1.js"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/game1.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css">
+    <link rel="icon" class="icons" href="image/icong.jpg" sizes="16x16">
+    <style>
+      body{
+        background-image: url('image/bgimgbatf.jpg');
+        background-size: cover;
+      }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    
+    <title>Game</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light primary-nav">
+  <a class="navbar-brand" href="#"><img src="image/joy.jpg" width="20%"></a>
+    <div class="toggler-icons">
+    <span class="navbar-toggler-icon toggler"></span>
+    <span class="cross-icon " style="display: none;">&#10060;</span>
+  </div>
+  
+    
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-between w-100">
+      <li class="nav-item">
+        <a class="nav-link actives"  href="#"> <i class="fa fa-home text-f" style="font-size: 20px;"> Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="Trailer.html" > <i class="fa fa-play-circle text-f" style="font-size: 20px;"> Trailer</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link  " href="#" > <i class="fa fa-gamepad text-f" style="font-size: 20px;"> Games</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link " href="#" ><i class="fa fa-calendar-alt text-f" style="font-size: 20px;"> Calendar</i></a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link " href="contact.html" ><i class="fa fa-envelope text-f" style="font-size: 20px;"> Contact</i></a>
+      </li>
+
+       <li class= "nav-item" id="login">
+        <a class="nav-link " href="#"> <i class="fa fa-user-circle text-f" style="font-size: 20px;"> Login</i></a>
+      </li>
+    
+    </ul>
+  </div> 
+</nav>
+
+
+<div class="main">
+  <h1 class="top-content">THE MOST <span class="main_content">POPULARS</span> GAMES <span class="main_content">VIDEO</span> TRAILER<span class="main_content"> FOR</span>  YOU</h1>
+
+<div class="submain">
+ <a href="#"><p><span>Call of Duty</span></p></a>
+ <a href="#"><p><span>Pro Evolution Soccer Gameplay</span></p></a>
+ <a href="#"><p><span>FIFA Gameplay</span></p></a>
+ <a href="#"><p><span>PUBG Gamaeplay</span></p></a>
+ <a href="#"><p><span>Counter Strike Gameplay</span></p></a>
+</div>
+</div>
+
+<!-- <div class="wrapper ">
+ <div class="img-item"><a href="#"><img src="image/cod.jpg" alt=""></a></div>
+ <div class="img-item"><a href="#"><img src="image/fifa1.jpg" alt=""></a></div>
+ <div class="img-item"><a href="#"><img src="image/pes.jpg" alt=""></a></div>
+ <div class="img-item"><a href="#"><img src="image/counter.jpg" alt=""></a></div>
+ <div class="img-item"><a href="#"><img src="image/nite1.jpg" alt=""></a></div>
+</div> -->
+<div class="whole-game-main">
+<div class="game-main-wrapper"> 
+<h2 class="text-white font-weight-bold py-4 headingContent">Trending Games Trailer</h2>
+  <div class="game-main-group-games-wrapper d-flex py-4"> 
+    <ul id="autoWidth" class="cs-hidden">   
+      <li class="item-a">
+  <div class=" group-games  ">
+    <div class="card ml-4 "  style="width: 16rem;">
+      <img src="image/cod.jpg" class="card-img-top" id="cod"  onclick="playVideo('video1','media/cod.mp4')"     alt="">
+    </div>
+  </div>
+</li>
+
+<li class="item-a">
+  <div class="group-games ">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/pes2021.jpg" class="card-img-top" id="pes"   onclick="playVideo('video1','media/pes2021.mp4')"    alt="">
+    </div>
+  </div>
+  </li>
+
+  <li class="item-a">
+  <div class=" group-games ">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/fifa1.jpg" class="card-img-top" id="fifa"  onclick="playVideo('video1','media/Fifa21.mp4')"   alt="">
+    </div>
+  </div>
+  </li>
+
+  <li class="item-a">
+  <div class="group-games ">
+    <div class="card ml-4  " style="width: 16rem;">
+       <img src="image/pubg5.jpg" class="card-img-top" id="pubg" onclick="playVideo('video1','media/pubg.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+
+
+  <li class="item-a">
+  <div class="group-games ">
+    <div class="card ml-4 " style="width: 16rem;">
+          <img src="image/nite1.jpg" class="card-img-top"  id="fort" onclick="playVideo('video1','media/fortnite.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+
+
+  <li class="item-a">
+  <div class="group-games">
+    <div class="card ml-4 " style="width: 16rem;">
+         <img src="image/ac.jpg" class="card-img-top"  id="ac" onclick="playVideo('video1','media/ACV.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+
+  <li class="item-a">
+  <div class="group-games">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/counter.jpg" class="card-img-top"  id="cs" onclick="playVideo('video1','media/cs.mp4')"  alt="">
+    </div>
+  </div>  
+  </li>
+
+  <li class="item-a">
+  <div class="group-games">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/gtavi.jpg" class="card-img-top" id="gta" onclick="playVideo('video1','media/gtaVI.mp4')"  alt="">
+    </div>
+  </div>  
+  </li>
+
+  <li class="item-a">
+  <div class=" group-games  ">
+    <div class="card ml-4 " style="width: 16rem;">
+     <img src="image/minecraft.jpg" class="card-img-top" id="mc" onclick="playVideo('video1','media/minecraft.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+
+  <li class="item-a">
+  <div class="group-games ">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/us.jpg" class="card-img-top" id="us" onclick="playVideo('video1','media/aus.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+
+  <li class="item-a">
+  <div class="group-games ">
+    <div class="card ml-4 " style="width: 16rem;">
+        <img src="image/anc.jpg" class="card-img-top" id="animal" onclick="playVideo('video1','media/animc.mp4')"  alt="">
+    </div>
+  </div>
+  </li>
+  </div>
+  </div>
+
+<div class=" container d-flex align-items-center justify-content-center" id="videoContent">
+  <video id="video1" width="600" >
+    <source type="vide0/mp4" id="sources" src="">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="close"> <i id="fa-times" onclick="closeVideo()">&#10060;</i> </div>
+</div>
+
+  <div class="game-main-wrapper wrapper-1 mt-5"> 
+    <h2 class="text-white font-weight-bold headingContent ">Most Adventure Games</h2>
+      <div class="game-main-group-games-wrapper d-flex py-4">  
+        <ul id="autoWidth2" class="cs-hidden">   
+          <li class="item-a"> 
+      <div class=" group-games  ">
+        <div class="card ml-4 " style="width: 16rem;">
+       <img src="image/tr.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+    
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/pop.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+       </li>
+
+       <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/re.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/ds.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/som1.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/fc5.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/wd1.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/cyber.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+
+      <li class="item-a">
+      <div class="group-games ">
+        <div class="card ml-4 " style="width: 16rem;">
+           <img src="image/valol.jpg" class="card-img-top"  alt="">
+        </div>
+      </div>
+      </li>
+  </div>
+  </div>
+  </div>
+
+  
+    <a href="#" class="to-top"><i class="fas fa-chevron-up"></i></a>
+  
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqGame.js"></script> 
+<script type="text/javascript" src="js/game1.js"></script>
+<script type="text/javascript" src="js/lightslider.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+<footer>
+  <div class="container ">
+    <h2 class="text-white ml-2 d-flex align-items-center justify-content-center">Connect with us</h2>
+    <ul class="nav-list d-flex align-items-center justify-content-center">
+      <li class="list-items"><i class="fab fa-facebook"></i></li>
+      <li class="list-items"><i class="fab fa-twitter"></i></li>
+      <li class="list-items"><i class="fab fa-instagram"></i></li>
+    </ul>
+  </div>s
+  <div class="container text-white d-flex justify-content-center align-items-center footerContent1">
+    <p class="ml-4">Info</p><span><p class="ml-2">Support</p></span><span><p class="ml-2">Marketing</p></span>
+  </div>
+    <div class="text-white  d-flex justify-content-center align-items-center footerContent2">
+    <p class="ml-2"><a>Terms of use</a></p><span><p class="ml-2">Privacy Policy</p></span>
+  </div>
+  <p class="text-secondary text-center copyrightContent"> &copy; 2020 skGaming</h2>
+</footer>
+
+
+
+
+</body>
+</html>
